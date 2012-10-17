@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style type="text/css" media="screen">@import "css/main.css";</style>
+</head>
+<script type="text/javascript" src="js/jquery-1.6.1.js"></script>
+<script type="text/javascript" src="js/math_addons.js"></script>
+<script type="text/javascript" src="js/CSStris.js"></script>
+<script type="text/javascript" src="js/CSStrisImplement.js"></script>
+<script type="text/javascript" src="js/sylvester.src.js"></script>
+<script>
+$(document).ready(function(){
+initialize();
+});</script>
+<title>CSStris!</title>
+<body>
+  <div id="container">
+  <div id="console">
+ <div id="nextConsole">
+   <span class="leftPadding">Next</span>
+ <div id="next">
+  </div> <!-- end next div -->
+  </div> <!-- end nextConsole -->
+  <div id="score">
+    <table id="score_table">
+      <tr>
+	<td class="leftPadding">Lines</td>
+	<td class="table_text_right lines">0</td>
+      </tr>
+      <tr>
+	<td class="leftPadding">Score</td>
+	<td class="table_text_right score">0</td>
+      </tr>
+      <tr>
+	<td class="leftPadding">Level</td>
+	<td class="table_text_right level">1</td>
+      </tr>
+   </table>
+  </div> <!-- end score div -->
+  <div id="directions">
+    <table id="directions_table">
+      <tr>
+	<td class="leftPadding">Action</td>
+	<td class="blueText table_text_right">Key</td>
+      </tr>
+      <tr>
+	<td class="leftPadding">Rotate Piece</td>
+	<td class="blueText table_text_right">&uarr;</td>
+      </tr>
+      <tr>
+	<td class="leftPadding">Move Left</td>
+	<td class="blueText table_text_right">&larr;</td>
+      </tr>
+      <tr>
+	<td class="leftPadding">Move Right</td>
+	<td class="blueText table_text_right">&rarr;</td>
+      </tr>
+      <tr>
+	<td class="leftPadding">Soft Drop</td>
+	<td class="blueText table_text_right">&darr;</td>
+      </tr>
+    </table>
+  </div> <!-- end directions div -->
+  </div> <!-- end console -->
+  <div id="board">
+  </div> <!-- end board div -->
+  </div> <!-- end container div -->
+  </body>
+  </html>
+    

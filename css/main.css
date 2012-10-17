@@ -1,0 +1,116 @@
+#board {
+    width: 400px;
+    height: 720px;
+    background: black;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 610px;
+
+}
+#console {
+    float: right;
+}
+#nextConsole {
+    width: 200px;
+    height: 100px;
+    background: grey;
+}
+#next {
+    width: 160px;
+    height: 100px;
+    margin-left: 20px;
+
+}
+#score {
+    width: 200px;
+    height: 140px;
+    background: grey;
+}
+
+#score_table {
+    width: 100%;
+}
+#directions {
+    width: 200px;
+    padding-top: 10px;
+}
+#directions_table {
+    background: grey;
+    width: 100%;
+}
+#gameOver {
+    width: 400px;
+    height: 200px;
+    background: grey;
+}
+.line {
+    width:400px;
+    height:40px;
+}
+.block {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+.solid {
+    border: 1px solid black;
+}
+.empty {
+    background: black;
+}
+.emptyNext {
+    background: grey;
+}
+.orange {
+    background:url('/imgs/orangeblock.png');
+}
+.yellow {
+    background:url('/imgs/yellowblock.png');
+}
+.green {
+    background:url('/imgs/greenblock.png');
+}
+.aqua {
+    background:url('/imgs/aquablock.png');
+}
+.purple {
+    background:url('/imgs/purpleblock.png');
+}
+.blue {
+    background:url('/imgs/blueblock.png');
+}
+.red {
+    background:url('/imgs/redblock.png');
+}
+
+.table_text_right {
+    text-align: right;
+}
+.leftPadding {
+    padding-left: 5px;
+}
+.gameOver {
+    margin-left: 120px;
+    color: red;
+}
+
+.playAgain {
+    width: 140px;
+    margin-left: 120px;
+    color: blue;
+    border: solid 1px blue;
+    padding-left: 6px;
+    padding-right: 6px;
+    text-decoration: none;
+}
+
+.hover {
+    background: lightgrey;
+}
+
+.blueText {
+    color: blue;
+}
